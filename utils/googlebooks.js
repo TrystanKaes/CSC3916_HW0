@@ -16,7 +16,8 @@ module.exports = async (phrase) => {
         requestHeader: results.config.headers
     }
 
-    return gbookInfo;
+    // return gbookInfo;
+    return JSON.stringify(results.data);
 }
 
 /*  console.log(results.data);
